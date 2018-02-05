@@ -1,0 +1,19 @@
+git remote -v : git shows the server address where it wants to push to
+
+git remote set-url origin https://github.com/Tyby84/travel-site.git : set the place where we can push to
+
+git push origin master: origin is stands for the place what we set up. It pushes the code to that repo
+
+git status: shows what modifications happened
+
+git add -A: stage all modified files
+
+git commit -m "The message": commit the changes with the msg
+
+git branch: Shows the branches. Branch: version of a project
+Good practise: creating a branch for each new feature of our project,
+
+
+
+*********** NPM **************
+npm init: create the package.json file 
