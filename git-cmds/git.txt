@@ -8,10 +8,32 @@ git status: shows what modifications happened
 
 git add -A: stage all modified files
 
+git reset app/index.html: unstageing index.html
+
+git commit -am "Message": Stage and commit all files in one command
+
 git commit -m "The message": commit the changes with the msg
 
 git branch: Shows the branches. Branch: version of a project
-Good practise: creating a branch for each new feature of our project,
+Good practise: creating a branch for each new feature of our project. The working directory has to be clean!
+
+git branch name-of-branch: create a new branch
+
+git checkout name-of-branch: switch the branch to name-of-branch.
+git checkout master: switching back
+git merge name-of-branch: merge the branch to the master
+
+git branch -d name-of-branch: deleting branch
+git checkout -b name-of-branch: Create a new branch and switch to it as well!
+
+pull request: Is a request to merge one branch to another.
+
+git pull origin master: pulling the code down from the repo.
+
+
+
+
+
 
 
 
