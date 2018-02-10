@@ -7,7 +7,7 @@
 	margin-right: auto;
 	
 	@mixin atMedium{
-		max-width: 970px;
+		max-width: 976px;
 	}
 	
 	.wrapper {
@@ -23,5 +23,25 @@
 	
 		margin-bottom: 3.875rem;
 	
+	}
+	
+	&__no-wrapper-until-medium {
+		padding-left: 0;
+		padding-right: 0;
+		
+		@mixin atMedium {
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+	}
+	
+	&__no-wrapper-until-large {
+		padding-left: 0;
+		padding-right: 0;
+		
+		@mixin atLarge {
+			padding-left: 18px;
+			padding-right: 18px;
+		}
 	}
 }
