@@ -8,12 +8,20 @@
 		font-size: 3.75rem;
 	}
 	
+	&--less-margin {
+		margin-bottom: 1.3rem;
+		margin-top: 0;
+	}
+	
 	strong{
 		font-weight: 500;
 	}
 	
 	&__blue {
 		color: $mainBlue;
+	}
+	&__white {
+		color: #fff;
 	}
 	
 	&__icon{
